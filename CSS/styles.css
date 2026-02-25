@@ -8,7 +8,7 @@ Ivory: #FFF4EC
 /* ------------------------------------------- */
 /* BODY */
 body {
-  background-image: url(../Images/background-image.jpg);
+  background-image: url(/Images/background-image.jpg);
 }
 .headshot {
   border-radius: 50%;
