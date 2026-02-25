@@ -1,0 +1,137 @@
+/* COLOR PALETTE
+Deep Red: #330F0A
+Green (used on photo border): #65743a
+Baby Pink: #d5c5c8
+Ivory: #FFF4EC
+*/
+
+/* ------------------------------------------- */
+/* BODY */
+body {
+  background-image: url(/Images/background-image.jpg);
+}
+.headshot {
+  border-radius: 50%;
+  border: double 20px #65743a;
+  display: block;
+  margin: 2rem auto;
+  position: relative;
+}
+/* ------------------------------------------- */
+/* HERO DIV */
+.hero {
+  display: flex;
+  position: relative;
+  min-height: 60vh;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+/* (MADDIE COATNEY) (behind headshot) */
+.hero-text {
+  position: absolute;
+  display: flex;
+  font-size: 350px;
+  font-family: "Oswald", sans-serif;
+  color: #330f0a;
+  font-weight: 800;
+  z-index: -1;
+  white-space: nowrap;
+  letter-spacing: -35px;
+}
+/* ------------------------------------------- */
+/* LINKS */
+/* links block */
+.links {
+  padding-top: 20px;
+  margin-top: 4rem;
+}
+/* links by line */
+.links li {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0 25px 0;
+  font-size: 30px;
+}
+/* links by text */
+.links a {
+  text-decoration: none;
+  color: #d5c5c8;
+  font-family: "Playfair Display", serif;
+  background-color: #330f0a;
+  padding: 10px 10rem 10px 10rem;
+  border-radius: 0%;
+  letter-spacing: 10px;
+  width: 350px;
+  text-align: center;
+}
+/* when mouse hovers over link box */
+.links a:hover {
+  background-color: #65743a;
+  color: #fff4ec;
+  border: solid 2px #fff4ec;
+}
+/* ------------------------------------------- */
+/* HEADLINE */
+.headline {
+  font-size: 50px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: #330f0a;
+  font-family: "Playfair Display", serif;
+}
+
+.headline-sub {
+  font-size: 20px;
+  padding: 0;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 -40px 0;
+  color: #330f0a;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+/* ------------------------------------------- */
+/* MEDIA QUERIES */
+@media (max-width: 1200px) {
+  /* .hero-text {
+    display: none;
+  } */
+  .hero-text {
+    font-size: 170px;
+    letter-spacing: -15px;
+    font-weight: 800;
+  }
+  .links {
+    margin-top: 80px;
+  }
+  .links li {
+    font-size: 25px;
+  }
+  .links a {
+    width: 200px;
+    margin-left: -30px;
+    letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 650px) {
+  .hero-text {
+    display: none;
+  }
+  .links li {
+    font-size: 20px;
+  }
+  .links a {
+    width: 150px;
+    margin-left: -30px;
+    letter-spacing: 2px;
+  }
+}
