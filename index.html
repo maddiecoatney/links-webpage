@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <!--Character encoding for computer reading-->
+    <meta charset="UTF-8" />
+    <title>Maddie's Link Page</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--HERO SECTION-->
+    <!--Big, bold "MADDIE COATNEY" writing behind oval image-->
+    <!--Headshot in center of page-->
+    <div class="hero">
+      <div class="hero-text">MADDIE-----COATNEY</div>
+      <!-- <div class="hero-text-tablet">
+        MADDIE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COATNEY
+      </div> -->
+      <picture>
+        <!--Desktop View-->
+        <source
+          media="(min-width: 1200px)"
+          srcset="Images/headshot_large.jpg"
+        />
+        <!--Tablet View-->
+        <source
+          media="(min-width: 650px)"
+          srcset="Images/headshot_medium.jpg"
+        />
+        <!--Mobile View-->
+        <source media="(min-width: 450px)" srcset="Images/headshot_small.jpg" />
+        <!--Fall back image-->
+        <img
+          src="Images/headshot.jpg"
+          alt="Maddie Coatey headshot"
+          class="headshot"
+        />
+      </picture>
+    </div>
+    <!--HEADLINE---->
+    <div class="headline">
+      Hi, I'm&nbsp;<strong><em>Maddie Coatney!</em></strong>
+    </div>
+    <div class="headline-sub">Aspiring Full-Stack Developer</div>
+    <!--LINKS-->
+    <!--LinkedIn-->
+    <!--GitHub-->
+    <!--Portfolio-->
+    <div class="links">
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/madelinegthomas/" target="_blank"
+            >LINKEDIN</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/maddiecoatney" target="_blank">GITHUB</a>
+        </li>
+        <li><a href="" target="_blank">PORTFOLIO</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
