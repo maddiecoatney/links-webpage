@@ -9,6 +9,10 @@ Ivory: #FFF4EC
 /* BODY */
 body {
   background-image: url(/Images/background-image.jpg);
+  background-size: cover;
+  background-color: #d5c5c8;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .headshot {
   border-radius: 50%;
