@@ -7,6 +7,9 @@ Ivory: #FFF4EC
 
 /* ------------------------------------------- */
 /* BODY */
+html, body {
+  height: 100%;
+  
 body {
   background-image: url(/Images/background-image.jpg);
   background-size: cover;
