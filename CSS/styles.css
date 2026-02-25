@@ -11,6 +11,7 @@ html, body {
   height: 100%;
   
 body {
+  overflow-x: hidden;
   background-image: url(/Images/background-image.jpg);
   background-size: cover;
   background-color: #d5c5c8;
@@ -33,12 +34,13 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  max-width: 100%;
 }
 /* (MADDIE COATNEY) (behind headshot) */
 .hero-text {
   position: absolute;
   display: flex;
-  font-size: 350px;
+  font-size: clamp(120px, 20vw, 320px);
   font-family: "Oswald", sans-serif;
   color: #330f0a;
   font-weight: 800;
