@@ -15,8 +15,7 @@ body {
   background-image: url(../Images/background-image.jpg);
   background-size: cover;
   background-color: #d5c5c8;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-repeat: repeat;
 }
 .headshot {
   border-radius: 50%;
