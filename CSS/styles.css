@@ -39,13 +39,13 @@ body {
 .hero-text {
   position: absolute;
   display: flex;
-  font-size: clamp(120px, 20vw, 320px);
+  font-size: clamp(100px, 14vw, 260px);
   font-family: "Oswald", sans-serif;
   color: #330f0a;
   font-weight: 800;
   z-index: -1;
   white-space: nowrap;
-  letter-spacing: -35px;
+  letter-spacing: -18px;
 }
 /* ------------------------------------------- */
 /* LINKS */
