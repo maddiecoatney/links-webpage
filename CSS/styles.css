@@ -34,7 +34,7 @@ body {
 .hero-text {
   position: absolute;
   display: flex;
-  font-size: clamp(80px, 12vw, 220px);
+  font-size: clamp(80px, 12vw, 200px);
   font-family: "Oswald", sans-serif;
   color: #330f0a;
   font-weight: 800;
