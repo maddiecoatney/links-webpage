@@ -144,6 +144,12 @@ body {
   .hero-text {
     display: none;
   }
+  .headline {
+    font-size: 30px;
+  }
+  .headline-sub {
+    font-size: 16px;
+  }
   .links li {
     font-size: 20px;
   }
